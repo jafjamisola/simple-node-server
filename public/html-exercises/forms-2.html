@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+            Forms 2
+        </title>
+    </head>
+    
+    <body>
+        <form>
+        <h1>Order Form</h1>
+        
+            <fieldset>
+            <legend>Customer Details</legend><br>
+            <label> Customer Name: <input type="text" name="username" required></label> <br><br>
+            <label> Mobile Number: <input type="text" name="username" required></label> <br><br>
+            <label> E-mail Address: <input type="email" name="email address" required></label> <br><br>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Pizza Options</legend><br>
+            <label>
+           
+            Flavor:
+            <select name="flavor">
+            <option value="Hawaiian">Hawaiian</option>
+            <option value="Double Cheese">Double Cheese</option>
+            <option value="Margherita">Margherita</option>
+            <option value="Barbecue Bacon Cheeseburger">Barbeque Bacon Cheeseburger</option>
+            <option value="Pepperoni and Cheese">Pepperoni and Cheese</option>
+            </select>
+            </label>
+            
+            <br>
+            <br>
+            
+            Size:
+            <br>
+            <label><input type="radio" name="size" value="small"> Small </label>
+            <label><input type="radio" name="size" value="medium"> Medium </label>
+            <label><input type="radio" name="size" value="large"> Large </label>
+            
+            <br><br>
+            Extra Toppings:
+            <br>
+            <label><input type="checkbox" name="topping" value="bacon" > Bacon </label>
+            <label><input type="checkbox" name="topping" value="cheese" > Cheese </label>
+            <label><input type="checkbox" name="topping" value="onion" > Onion </label>
+            <label><input type="checkbox" name="topping" value="mushroom" > Mushroom </label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Delivery Details</legend><br>
+            <label> Delivery Date: <input type="date" name="delivery"></label>
+            <br><br>
+            <label> Preferred Delivery Time: <input type="time" name="delivery"></label>
+            <br><br>
+            <label> Delivery Address: <br><textarea rows="10" cols="50"></textarea></label>
+            
+            </fieldset>
+            
+            
+             <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            </form>
+    </body>
+</html>
