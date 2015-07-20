@@ -1,0 +1,139 @@
+div {
+    font-family: "Comfortaa";
+}
+.rect {
+    border: dashed;
+    width: 70px;
+	height: 150px;
+	margin: -4px;
+	position: fixed;
+	top: 300px;
+	right: 0px;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	border-color: #cbe5ff;
+	border-radius: 10px;
+}
+.rect a {
+	text-decoration: none;
+	color: #cbe5ff;
+}
+.whole {
+    background: linear-gradient(to bottom, white, #84befe);
+	width: 980px;
+	height: 1300px;
+	padding: 40px;
+	margin: auto;
+}
+.header {
+    position: relative;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 5px 5px 10px gray;
+}
+.preview {
+	height: 360px;
+	width: 800px;
+	background-color: #84befe;
+	position: relative;
+	margin-left: 180px;
+	margin-right: 100px;
+	font-size: 90px;
+	text-shadow: 5px 5px 10px gray;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.container {
+	background-color: white;
+	width: 980px;
+	margin: auto;
+	height: 500px;
+	top: 15px;
+	position: relative;
+	border-radius: 0px 15px 0px 0px;
+}
+.nav a{	
+	float: left;
+	width: 175px;
+	color: white;
+	background-color: #84befe;
+	padding: 10px;
+	border-right: 1px solid white;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0px 15px 0px 0px;
+}
+
+a:hover {
+	background-color: white;
+	color: #84befe;
+	border-radius: 0px 15px 0px 0px;
+}
+.mid {
+	position: relative;
+}
+.last {
+	position: absolute;
+	background-color: white;
+	width: 965px;
+	height: 320px;
+	top: 520px;
+	padding: 8px;
+	
+}
+.left {
+	background: white;
+	width: 468px;
+	height: 310px;
+	position: absolute;
+	border: 2.5px dashed #84befe;
+	padding: 3px;
+	margin: auto;
+	float: left;
+}
+.left-head {
+	background: linear-gradient(to bottom, lightblue, #84befe);
+	width: 445px;
+	height: 40px;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 0px 0px 20px 20px;
+	color: white;
+}
+.right {
+	background: white;
+	width: 468px;
+	height: 310px;
+	position: relative;
+	border: 2.5px dashed #84befe;
+	padding: 3px;
+	margin: auto;
+	float: right;
+}
+.right-head {
+	background: radial-gradient(#84befe, lightblue);
+	width: 445px;
+	height: 40px;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 0px 0px 20px 20px;
+	color: white;
+}
+.footer {
+	color: white;
+	position: relative;
+	bottom: -375px;
+	left: 780px;
+	font-size: 21px;
+}
