@@ -43,7 +43,7 @@
 	border-right: 1px solid white;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 60px/5px
+	border-radius: 60px/5px;
 	font-family: "Fredoka One";
 }
 
@@ -61,14 +61,15 @@ a {
 .midtext {
 	margin: auto;
 	text-align: justify;
-	font-size: 40px;
+	font-size: 25px;
 	color: white;
 }
 img {
 	float: left;
-	width: 200px;
-	height: 300px;
-	padding-right: 20px;
+	width: 230px;
+	height: 250px;
+	padding-right: 60px;
+	padding-top: 10px;
 }
 .footer {
 	color: black;

@@ -1,7 +1,7 @@
 .whole {
     background-color: #277771;
 	width: 1300px;
-	height: 1300px;
+	height: 1700px;
 	padding: 40px;
 	margin: auto;
 	border-radius: 150px/90px;
@@ -28,7 +28,7 @@
 	background-color: #1AA890;
 	width: 1200px;
 	margin: auto;
-	height: 1000px;
+	height: 1400px;
 	top: 25px;
 	position: relative;
 	border-radius: 80px/40px;
@@ -43,7 +43,7 @@
 	border-right: 1px solid white;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 60px/5px
+	border-radius: 60px/5px;
 	font-family: "Fredoka One";
 }
 
@@ -61,14 +61,18 @@ a {
 .midtext {
 	margin: auto;
 	text-align: justify;
-	font-size: 40px;
+	font-size: 20px;
 	color: white;
 }
 img {
+	padding-right: 50px;
+	position: relative;
 	float: left;
-	width: 200px;
-	height: 300px;
-	padding-right: 20px;
+	width: 300px;
+	height: 450px;
+}
+.midtext li {
+	text-align: justify;
 }
 .footer {
 	color: black;
